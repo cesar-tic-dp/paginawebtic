@@ -1,0 +1,39 @@
+header { /*encabezado de página*/
+   background-color: blue; /*color del fondo del encabezado*/
+   color:#00ff00; /* color de la letra del encabezado*/
+   font-family:Courier New, Courier, monospace; /* tipo de letra*/
+   text-align: left; /* de esta forma decimos donde queremos alinear el texto (centro, izquierda, derecha)*/
+   border: 15px, solid, black; /*es el borde*, indica el grosor del borde, su densidad (solido, a trozos), y el color del borde*/
+    padding: 30px;
+    font-size: 36 %;
+}
+
+body { /*cuerpo de página*/
+   background-color: rgb(250, 190, 10) ; /* el color del fondo del cuerpo*/
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*tipo de letra del texto del cuerpo*/
+}
+
+    
+
+section{ /*indica secciones en las que se puede dividir la página*/
+    border: 8px solid white; /* es el borde, indica el borde amarillo*/
+    margin: 10px; /* indica el margen en este caso es el grosor*/
+    padding: 10px; /* es el espacio entre el contenido y el borde*/
+    color: black; /*color de la letra de cada sección*/
+    background-color: palevioletred; /*color del fondo de las secciones*/
+    font-family:Georgia, 'Times New Roman', Times, serif; /*tipo de letra del texto dentro de las secciones*/
+    text-align: center; /*indica donde queremos colocar eltexto (centro, derecha, izquierda...)*/
+    margin: 20px;
+}
+
+.resaltada { /* es el contenedor que queremos resaltar*/
+    background-color: palevioletred ; /* con esto resaltamos un solo contenedor*/
+    border: 5px solid green; /* es el borde */
+     text-align: center; /*donde se coloca el texto, es decir, si en el centro, a la derecha, izquierda...*/
+}
+
+
+
+
+
+
